@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32519.379
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BfInterpreter", "BfInterpreter\BfInterpreter.csproj", "{20828698-C15C-4C29-B870-D9E0605F183F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BfInterpreter", "BfInterpreter\BfInterpreter.csproj", "{20828698-C15C-4C29-B870-D9E0605F183F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BfInterpreterTests", "BfInterpreterTests\BfInterpreterTests.csproj", "{081DB97E-218F-45ED-9D21-229AFC67D1EE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{20828698-C15C-4C29-B870-D9E0605F183F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{20828698-C15C-4C29-B870-D9E0605F183F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{20828698-C15C-4C29-B870-D9E0605F183F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{081DB97E-218F-45ED-9D21-229AFC67D1EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{081DB97E-218F-45ED-9D21-229AFC67D1EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{081DB97E-218F-45ED-9D21-229AFC67D1EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{081DB97E-218F-45ED-9D21-229AFC67D1EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
