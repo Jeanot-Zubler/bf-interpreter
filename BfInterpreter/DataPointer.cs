@@ -66,7 +66,7 @@ public class DataPointer : IDataPointer
             throw new InvalidOperationException("Index out of bounds for fixed Array size");
         }
 
-        while(this.length < minimumLength)
+        while(this.length <= minimumLength)
         {
             this.length *= ArrayLengthFactor;
         }
